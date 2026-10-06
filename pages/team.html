@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team | TCube E-Cell</title>
+  <meta name="description" content="Meet the 15 students who run TCube, the Entrepreneurship Cell of GGV Bilaspur." />
+
+  <!-- Security: restrict what this page is allowed to load/run.
+       Update the relevant -src list here if a new external service
+       is added later. This same policy is repeated on every page,
+       so a change needs to be made on all of them. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self'; connect-src 'self' https://api.web3forms.com; form-action 'self' https://api.web3forms.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none';" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <link rel="icon" type="image/svg+xml" href="../assets/logo.jpg" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="wrap header-inner">
+      <a href="../index.html" class="brand" aria-label="TCube home">
+        <img src="../assets/logo.jpg" alt="" class="brand-mark" width="32" height="32" />
+        <span class="brand-name">TCube</span>
+      </a>
+
+      <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="about.html">Who We Are</a>
+        <a href="team.html" aria-current="page">Team</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn btn-primary header-register"
+           href="https://tcubeggv.github.io/registartion-form/"
+           target="_blank" rel="noopener noreferrer">
+          Register
+        </a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="siteNav">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-header">
+      <div class="wrap">
+        <p class="eyebrow">The People</p>
+        <h1>Our Team</h1>
+        <p>Fifteen students running TCube — say hello.</p>
+      </div>
+    </div>
+
+    <section class="team" id="team">
+      <div class="wrap">
+        <div class="team-grid" id="teamGrid">
+          <!-- Cards are rendered from js/data.js — edit team members
+               there, not here, so the layout never breaks. -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <img src="../assets/logo.jpg" alt="" width="26" height="26" />
+        <span>TCube</span>
+        <p>Entrepreneurship Cell &middot; Guru Ghasidas Vishwavidyalaya, Bilaspur</p>
+      </div>
+
+    <div class="footer-duo">
+      <div class="footer-links">
+        <h3>Explore</h3>
+        <a href="pages/about.html">Who We Are</a>
+        <a href="pages/team.html">Team</a>
+        <a href="pages/blog.html">Blog</a>
+        <a href="pages/gallery.html">Gallery</a>
+        <a href="pages/contact.html">Contact</a>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Get in touch</h3>
+        <a href="mailto:tcubeggv@gmail.com">tcubeggv@gmail.com</a>
+        <a href="tel:+916260077166">+91 6260077166</a>
+      </div>
+
+      <div class="footer-socials">
+        <h3>Follow</h3>
+        <div class="social-row">
+          <a href="https://www.instagram.com/ecell.ggv" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/in/tcube-ggv-98ab51433/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M7.8 10v6.2M7.8 7.7v.01M12 16.2v-3.6c0-1.3.9-2.3 2.1-2.3 1.2 0 1.9.9 1.9 2.3v3.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </a>
+          <a href="mailto:tcubeggv@gmail.com" aria-label="Email">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5" stroke="currentColor" stroke-width="1.6"/><path d="M4 6.5l8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="wrap footer-bottom">
+      <p>&copy; <span id="year"></span> TCube E-Cell, GGV Bilaspur. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../js/data.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>
