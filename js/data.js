@@ -98,6 +98,13 @@ const BLOG_POSTS = [
   },
   {
     id: 2,
+    title: "A Hard Truth : The Market Rewards Where You Work, Not Just How Hard You Work",
+    date: "2026-10-10",
+    slug: "a-hard-truth",
+    cover: "assets/blog/a-hard-truth.png",
+  },
+  {
+    id: 3,
     title: "Inside Our First Ideathon of the Semester",
     date: "2026-09-28",
     slug: "first-ideathon-recap",
